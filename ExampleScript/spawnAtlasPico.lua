@@ -29,7 +29,7 @@ end
 function onBeatHit()
 	
 	--[ Making the sprite play an idle animation like the characters ]--
-	if curBeat % 2 == 0 then -- Check to run the code below every 2 beats (basically like the characters)
+	if curBeat % 2 == 0 then -- Check to run the code below every 2 beats (basically like the characters's idles)
 		
 		-- playAnim is the function to make lua sprites play their animations
 		-- 'atlasPico-test' is the object's tag
